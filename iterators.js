@@ -30,3 +30,34 @@ class Message {
 
 const message = new Message('There are no stupid questions.');
 console.log('stupid'.replace(message, 's****'));
+
+//----
+var tasks = [
+  {
+ 
+    'name'     : 'Write for Envato Tuts+',
+ 
+    'duration' : 120
+ 
+  },
+  {
+ 
+    'name'     : 'Work out',
+ 
+    'duration' : 60
+  },
+  {
+ 
+    'name'     : 'Procrastinate on Duolingo',
+ 
+    'duration' : 240
+ 
+  }
+];
+var task_names = [];
+ 
+tasks.forEach(function (task) {
+ 
+    task_names.push(task.name);
+     
+});

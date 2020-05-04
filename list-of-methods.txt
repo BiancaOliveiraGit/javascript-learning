@@ -1,3 +1,6 @@
+// var s = new Set;
+// Object.getOwnPropertyNames(Object.getPrototypeOf(s))
+
 array [
   'length',      'constructor',    'concat',
   'copyWithin',  'fill',           'find',
@@ -11,3 +14,7 @@ array [
   'every',       'some',           'reduce',
   'reduceRight', 'toLocaleString', 'toString'
 ]
+
+Map ["constructor", "get", "set", "has", "delete", "clear", "entries", "forEach", "keys", "size", "values"]
+
+Set ["constructor", "has", "add", "delete", "clear", "entries", "forEach", "size", "values", "keys"]
